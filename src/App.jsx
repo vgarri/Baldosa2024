@@ -23,10 +23,7 @@ function App() {
     <Conciertos/>
     <Bio/>
     <Contacto/>
-    
-   
-    
-      
+     
     </>
   )
 }
