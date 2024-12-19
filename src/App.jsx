@@ -1,8 +1,11 @@
 import { useState } from 'react'
 import './App.css'
-import Header from "./components/Header/Header"
-import Main from "./components/Main/Main"
-import Footer from "./components/Footer/Footer"
+import Portada from "./components/Portada"
+import UltimoLanz from "./components/UltimoLanz"
+import Conciertos from "./components/Conciertos"
+import Bio from "./components/Bio"
+import Contacto from "./components/Contacto"
+
 
 function App() {
 
@@ -15,9 +18,14 @@ function App() {
 
   return (
     <>
-    <Header/>
-    <Main/>
-    <Footer/>
+    <Portada/>
+    <UltimoLanz/>
+    <Conciertos/>
+    <Bio/>
+    <Contacto/>
+    
+   
+    
       
     </>
   )
