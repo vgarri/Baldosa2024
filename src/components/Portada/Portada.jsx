@@ -11,11 +11,11 @@ const navigate = useNavigate();
 
   return <>
   <section className="portada">
-    <h1>Portada</h1>
-    <img src="https://i.ibb.co/ch6j59t/Captura-de-pantalla-2024-12-19-a-las-18-28-41.png"></img>
+    <h1></h1>
+    <img className="logo" src="https://i.ibb.co/ch6j59t/Captura-de-pantalla-2024-12-19-a-las-18-28-41.png"></img>
   <article className="mas">
 
-  <h1>MÁS ⬇</h1>
+  <h6>MÁS ⬇</h6>
                               
   </article>
   </section>

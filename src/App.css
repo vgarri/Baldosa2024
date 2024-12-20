@@ -17,6 +17,9 @@
   flex-direction: column;
   align-items: center;
 }
+.logo{
+  width: 70%;
+}
 .mas{
   margin-top: 70vh;
 }
@@ -39,13 +42,27 @@
   height: 100vh;
 }
 .cartel > img{
-  width:100%;
+  max-width: 300px;
   height: 100vh;
 
 }
 
 .bio{
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+}
+.carrusel{
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.textBio{
+  width: 80%;
+  text-align: justify;
 }
 .contacto{
   height: 100vh;
