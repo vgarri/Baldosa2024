@@ -11,8 +11,8 @@ const navigate = useNavigate();
 
   return <>
   <section className="portada">
-    <h1></h1>
-    <img className="logo" src="https://i.ibb.co/ch6j59t/Captura-de-pantalla-2024-12-19-a-las-18-28-41.png"></img>
+    <h1 className="tituloWeb">Baldosa</h1>
+    {/* <img className="logo" src="https://i.ibb.co/ch6j59t/Captura-de-pantalla-2024-12-19-a-las-18-28-41.png"></img> */}
   <article className="mas">
 
   <h6>MÁS ⬇</h6>

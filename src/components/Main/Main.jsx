@@ -12,7 +12,7 @@ const Main = () => {
     <Conciertos/>
     <UltimoLanz/>
     <Bio/>
-    <Contacto/>
+    {/* <Contacto/> */}
   </>;
 };
 
