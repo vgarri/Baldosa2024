@@ -3,9 +3,10 @@
   color:#B0C779;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
   margin: 0;
   padding: 0;
+  width: 100%;
 
 }
 @font-face {
@@ -32,6 +33,9 @@
   flex-direction: column;
   align-items: center;
 }
+.portada > h6{
+  font-family: "Baldosa-Bold";
+}
 .logo{
   width: 70%;
 }
@@ -40,6 +44,7 @@
 }
 .mas{
   margin-top: 70vh;
+  font-family:"Baldosa-Bold";
 }
 .ultimolanzamiento{
   height: 100vh;
@@ -55,6 +60,7 @@
 }
 .conciertos>h1{
   justify-self: center;
+  font-family: "Baldosa-Bold";
 }
 .cartel{
   height: 100vh;
@@ -70,7 +76,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 300px;
+  padding: 2em;
   font-family: "Baldosa-Condensed";
 }
 .carrusel{
@@ -102,4 +108,32 @@
 }
 .contactIcon{
   width: 1px;
+}
+
+/*---------- menu hamburguesa ---------*/
+nav{
+  width: 100%;
+  height: 2em;
+  background-color: red;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 99;
+  display: flex;
+  justify-content: right;
+  
+}
+.burger-menu{
+  height:100%;
+  width: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.burger-bar{
+  width: 2em;
+  height: 0.2em;
+  background-color: aliceblue;
+  border-radius: 0.5em;
 }

@@ -7,6 +7,7 @@ import Conciertos from "./components/Conciertos"
 import Bio from "./components/Bio"
 import Contacto from "./components/Contacto"
 import Main from './components/Main/Main'
+import NavBar from './components/NavBar/NavBar'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+       
         <Main />
       </BrowserRouter>
 

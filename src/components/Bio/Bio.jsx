@@ -13,7 +13,7 @@ const Bio = () => {
   
     <h1>Bio</h1>
     <article className="carrusel">
-   <img src="https://cdn.diariodeavisos.com/wp-content/uploads/2023/10/Baldosa-grupo-1024x865.jpg"></img>
+   {/* <img src="https://cdn.diariodeavisos.com/wp-content/uploads/2023/10/Baldosa-grupo-1024x865.jpg"></img> */}
     </article>
     <article className="textBio">
     <p className="pbio">Baldosa es una banda que surge en 2021 en Tenerife. Su música, una amalgama de 
