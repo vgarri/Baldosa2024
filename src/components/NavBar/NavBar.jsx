@@ -17,21 +17,17 @@ const NavBar = () => {
       setBurgerClass("burger-bar unclicked")
       setMenuClass("menu hidden")
     }
+    setIsMenuClicked(!isMenuClicked)
   }
-
-  //sticky menu
- 
-
-
 
   return <>
           
           <section style={{width: "100%", height: 'auto'}}>
             <nav>
-              <article className="burger-menu">
-                <article className={burger_class} onClick={updateMenu}></article>
-                <article className={burger_class} onClick={updateMenu}></article>
-                <article className={burger_class} onClick={updateMenu}></article>
+              <article className="burger-menu" onClick={updateMenu}>
+                <article className={burger_class} ></article>
+                <article className={burger_class} ></article>
+                <article className={burger_class} ></article>
               </article>
             </nav>
           </section>
