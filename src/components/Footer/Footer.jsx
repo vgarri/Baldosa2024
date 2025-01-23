@@ -1,9 +1,9 @@
 import React from "react";
 
 const Footer = () => {
-  return <>
+  return <section className="footer">
   Footer
-  </>;
+  </section>;
 };
 
 export default Footer;
