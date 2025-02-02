@@ -36,11 +36,11 @@ const NavBar = () => {
           </section>
           <section className={menu_class}>
             {isMenuClicked ? <>
-            <article className="bubble1">Nuestras redes</article>
-            <article className="bubble">Merch</article>
-            <article className="bubble">Instagram</article>
-            <article className="bubble">Bandcamp</article>
-            <article className="bubble">Spotify</article>
+            <article className="bubble1">NUESTRAS REDES</article>
+            <article className="bubble">MERCH</article>
+            <article className="bubble">INSTAGRAM</article>
+            <article className="bubble">BANDCAMP</article>
+            <article className="bubble">SPOTIFY</article>
             </> : <></>}
 
             
